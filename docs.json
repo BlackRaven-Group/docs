@@ -16,6 +16,12 @@
         "pages": [
           "documentation-interne/decisions-horodatees"
         ]
+      },
+      {
+        "group": "Documentation",
+        "pages": [
+          "documentation/accueil"
+        ]
       }
     ]
   },
