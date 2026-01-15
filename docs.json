@@ -22,9 +22,9 @@
         "group": "Documentation",
         "pages": [
           "documentation/accueil",
-          "documentation/untitled-page",
-          "documentation/untitled-page-1",
-          "documentation/glossaire-and-concepts"
+          "documentation/vision-et-principes",
+          "documentation/cadre-methodologique-osint",
+          "documentation/glossaire-et-concepts"
         ]
       }
     ]
