@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "BlackRaven Group Documentation",
+  "name": "BlackRaven Docs",
   "colors": {
     "primary": "#DC2626",
     "light": "#EF4444",
@@ -48,8 +48,6 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
      "chatgpt",
      "claude",
      "perplexity",
@@ -60,8 +58,7 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
+      "github": "https://github.com/BlackRaven-Group",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
   }
