@@ -37,13 +37,13 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@blackraven-group.com"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://blackraven-group.com"
     }
   },
   "contextual": {
@@ -59,7 +59,7 @@
   "footer": {
     "socials": {
       "github": "https://github.com/BlackRaven-Group",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "linkedin": "https://linkedin.com/company/blackraven-group"
     }
   }
 }
