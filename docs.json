@@ -37,8 +37,8 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:support@blackraven-group.com"
+        "label": "Contact",
+        "href": "mailto:contact@blackraven.fr"
       }
     ],
     "primary": {
@@ -60,7 +60,8 @@
   "footer": {
     "socials": {
       "github": "https://github.com/BlackRaven-Group",
-      "linkedin": "https://linkedin.com/company/blackraven-group"
+      "linkedin": "https://linkedin.com/company/blackraven-group",
+      "website": "https://blackraven.fr"
     }
   }
 }
