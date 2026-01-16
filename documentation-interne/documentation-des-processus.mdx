@@ -1,0 +1,185 @@
+---
+title: "Base de documentation des processus"
+---
+
+> **Contexte**\
+> BlackRaven Group est une entreprise spécialisée dans l’OSINT.\
+> Ce document constitue le **socle méthodologique officiel** pour la documentation des processus internes, en cohérence avec le fonctionnement opérationnel de l’équipe.
+
+## 1. Objectifs de cette documentation
+
+- Fournir une **référence commune** sur la manière dont l’équipe travaille
+- Rendre les actions **traçables** sans ralentir l’exécution
+- Clarifier le lien entre **discussions (Discord)**, **tâches (Trello)** et **décisions**
+- Éviter les tâches floues, infinies ou non exploitables
+
+> Cette documentation n’a pas vocation à être exhaustive ni figée. Elle évolue avec le projet.
+
+## 2. Outils utilisés
+
+### 2.1 Trello — Suivi opérationnel
+
+Rôle principal : **suivi des tâches**
+
+Principes :
+
+- Toute tâche doit être **terminable**
+- Les tâches suivent une logique **SMART** (Simple, Mesurable, Atteignable, Réaliste, Temporelle)
+- Une tâche peut être créée **après exécution** si elle a été discutée et réalisée hors Trello
+
+Organisation type :
+
+- À faire
+- En cours
+- Terminé
+
+> Une tâche ne doit jamais représenter un état permanent (ex : “Maintenir la sécurité”). Elle doit correspondre à une action finie.
+
+### 2.2 Discord — Communication interne
+
+Rôle principal : **coordination et échanges rapides**
+
+Organisation :
+
+- Groupe privé Discord (pas de serveur dédié)
+- Discussions écrites pour :
+  - décisions rapides
+  - arbitrages
+  - organisation du travail
+- Messages privés utilisés par le Chef de Projet pour des échanges ciblés
+
+Exemple :
+
+- Chef de Projet → Développeur (MP) pour une demande spécifique
+
+Discord est considéré comme un **canal de travail**, pas comme une source de vérité finale.
+
+### 2.3 Mintlify — Documentation
+
+Rôle principal : **documentation structurée et consultable**
+
+Utilisation :
+
+- Hébergement de la documentation des processus
+- Centralisation des décisions documentées
+- Référence stable pour l’équipe et le projet
+
+Principes :
+
+- Documentation volontairement **légère et pragmatique**
+- Basée sur les besoins réels (pas de documentation systématique)
+- Alignée avec Trello et les discussions Discord
+
+Mintlify sert de **point d’ancrage documentaire**, sans se substituer aux outils opérationnels.
+
+## 3. Logique générale de travail
+
+Le fonctionnement réel de l’équipe suit ce cycle (souple) :
+
+1. Discussion (souvent sur Discord)
+2. Décision implicite ou explicite
+3. Exécution de la tâche
+4. Création ou mise à jour de la tâche Trello
+5. Documentation si nécessaire
+
+> L’ordre 3 → 4 peut être inversé selon le contexte.
+
+## 4. Documentation des tâches
+
+### 4.1 Quand documenter une tâche ?
+
+Une tâche **doit** être documentée si :
+
+- Elle a un impact structurel ou méthodologique
+- Elle introduit un choix non trivial
+- Elle doit être reproductible
+
+Une tâche **peut ne pas être documentée** si :
+
+- Elle est purement opérationnelle
+- Elle est triviale ou ponctuelle
+
+### 4.2 Modèle minimal de tâche Trello
+
+Chaque tâche doit répondre aux questions suivantes :
+
+- **Objectif** : Que fait-on exactement ?
+- **Critère de fin** : Quand considère-t-on la tâche comme terminée ?
+- **Responsable** : Qui exécute ou pilote ?
+
+Optionnel :
+
+- Contexte
+- Lien vers discussion Discord
+- Livrable
+
+## 5. Documentation des décisions
+
+Les décisions sont recensées dans des **documents de décisions horodatées**, fonctionnant comme des journaux (logs).
+
+### 5.1 Principe général
+
+- Les décisions sont consignées sous forme de lignes horodatées
+- Le format est volontairement **simple, linéaire et non interprétatif**
+- Une décision peut être consignée **après coup** si elle a été prise via Discord ou à l’oral
+
+Format standard :
+
+```
+[jj/mm/yyyy - hh:mm] <décision>
+```
+
+### 5.2 Catégorisation des décisions
+
+Il peut exister un document de décisions par **périmètre d’équipe** :
+
+- Chef de projet
+- Développement
+- Infrastructure
+- Marketing
+- Support
+
+Chaque document regroupe uniquement les décisions relevant de son périmètre.
+
+### 5.3 Lien avec les tâches
+
+- Une décision peut exister **sans tâche associée**
+- Une tâche peut référencer une ou plusieurs décisions
+- Les tâches Trello peuvent contenir un lien ou une référence vers l’entrée de décision concernée
+
+L’objectif est la **traçabilité minimale**, sans sur-documentation.
+
+### 5.2 Modèle de fiche décision
+
+**Titre de la décision**
+
+- Contexte :
+- Options envisagées :
+- Décision retenue :
+- Justification :
+- Date :
+- Personnes impliquées :
+
+> Une décision peut être documentée après coup si elle a été prise oralement ou via Discord.
+
+## 6. Traçabilité et pragmatisme
+
+Principes clés :
+
+- Tout n’a pas besoin d’être documenté
+- Ce qui n’est pas documenté doit au minimum être **compréhensible via Trello**
+- La documentation **sert le projet**, pas l’inverse
+
+L’objectif n’est pas de reconstruire l’historique parfait, mais de garantir :
+
+- compréhension
+- continuité
+- cohérence
+
+## 7. Évolution du document
+
+- Ce document peut être enrichi au fil du projet
+- Les sections peuvent être adaptées selon les besoins
+- Toute amélioration doit rester **simple, actionnable et utile**
+
+_Document de référence - BlackRaven Group_

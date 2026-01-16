@@ -14,6 +14,7 @@
         "group": "Documentation Interne",
         "hidden": true,
         "pages": [
+          "documentation-interne/documentation-des-processus",
           "documentation-interne/decisions-horodatees",
           "documentation-interne/decisions-horodatees-infra"
         ]
